@@ -1,0 +1,74 @@
+{
+    "mainLinks": [
+      {
+        "id": 1,
+        "title": "Demo",
+        "subLinks": [
+          { "id": 1, "title": "home 01", "path": "/" },
+          { "id": 2, "title": "home 02", "path": "/home-2" },
+          { "id": 3, "title": "home 03", "path": "/home-3" },
+          { "id": 4, "title": "home 04", "path": "/home-4" }
+        ]
+      },
+      { "id": 2, "title": "About", "path": "/about" },
+      {
+        "id": 3,
+        "title": "Services",
+        "subLinks": [
+          { "id": 1, "title": "Services", "path": "/services" },
+          { "id": 2, "title": "Service Details", "path": "/service-details" }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Pages",
+        "subLinks": [
+          {
+            "id": 1,
+            "title": "Blogs",
+            "subSubLinks": [
+              { "id": 1, "title": "blogs", "path": "/blog" },
+              { "id": 2, "title": "blog details", "path": "/blog-details" }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Team",
+            "subSubLinks": [
+              { "id": 1, "title": "Team", "path": "/team" },
+              { "id": 2, "title": "Team Details", "path": "/team-details" }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "FAQ",
+            "subSubLinks": [
+              { "id": 1, "title": "FAQ-1", "path": "/faq-1" },
+              { "id": 2, "title": "FAQ-2", "path": "/faq-2" }
+            ]
+          },
+          {
+            "id": 4,
+            "title": "Portfolio",
+            "subSubLinks": [
+              { "id": 1, "title": "Portfolio", "path": "/portfolio" },
+              { "id": 2, "title": "Portfolio Details", "path": "/portfolio-details" }
+            ]
+          },
+          { "id": 5, "title": "Pricing", "path": "/pricing" },
+          {
+            "id": 6,
+            "title": "Utilities",
+            "subSubLinks": [
+              { "id": 1, "title": "Error 404", "path": "/error-404" },
+              { "id": 2, "title": "Login", "path": "/login" },
+              { "id": 3, "title": "Signup", "path": "/signup" },
+              { "id": 4, "title": "Reset Password", "path": "/reset-password" }
+            ]
+          }
+        ]
+      },
+      { "id": 5, "title": "Contact", "path": "/contact" }
+    ]
+  }
+  
