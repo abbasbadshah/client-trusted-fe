@@ -26,20 +26,15 @@ const Content_02 = () => {
             <div className='jos order-1' data-jos_animation='fade-right'>
               {/* Section Content Block */}
               <div className='mb-6'>
-                <h2>Delivering the best solutions with AI</h2>
+                <h2>Global branding experts for years.</h2>
               </div>
               {/* Section Content Block */}
               <div className='text-lg leading-[1.4] lg:text-[21px]'>
                 <p className='mb-7 last:mb-0'>
-                  Our mission is to empower businesses with AI-powered solutions
-                  that increase productivity, improve decision-making and drive
-                  growth.
+                At ClientTrusted, we excel in web and mobile app development, along with digital marketing. Our expert team is dedicated to delivering innovative solutions that elevate your brand and ensure exceptional experiences.
                 </p>
                 <p className='mb-7 last:mb-0'>
-                  Since 2016 we have been passionate about helping our clients
-                  harness With a team of AI experts and data scientists their
-                  full potential &amp; stay competitive in an increasingly
-                  digital world.
+                Founded in 2021, we are committed to staying ahead of the curve, embracing the latest technologies to provide futuristic solutions. Our vision is to continuously evolve and adapt, ensuring our clients always receive cutting-edge services.
                 </p>
                 <Link
                   to='/contact'

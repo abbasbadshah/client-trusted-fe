@@ -8,7 +8,7 @@ const LogoDark = ({ light }) => {
     <Link to='/'>
       <img
         src={light ? logoLight : logoDark}
-        alt='AIMass'
+        alt='clienttrusted'
         width='96'
         height='24'
       />

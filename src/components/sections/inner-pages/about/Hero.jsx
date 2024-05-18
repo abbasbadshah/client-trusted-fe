@@ -8,7 +8,7 @@ const Hero = () => {
           {/* Section Content Block */}
           <div className='jos mb-10 text-center lg:mb-12 xl:mb-20'>
             <div className='mx-auto md:max-w-xl lg:max-w-3xl xl:max-w-[950px]'>
-              <h2>We are a trusted partner in our clients' AI journey</h2>
+              <h2>Creating brands and top-tier experiences.</h2>
             </div>
           </div>
           {/* Section Content Block */}

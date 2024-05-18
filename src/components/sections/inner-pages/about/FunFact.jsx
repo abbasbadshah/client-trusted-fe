@@ -11,10 +11,10 @@ const FunFact = () => {
               className='text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xl:text-[80px]'
               data-module='countup'
             >
-              <span className='start-number' data-countup-number={2}>
-                2
+              <span className='start-number' data-countup-number={500}>
+                500
               </span>
-              K+
+              +
             </h3>
             <span className='block text-lg font-normal text-black'>
               Successful Implementations
