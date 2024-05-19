@@ -1,14 +1,22 @@
-import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
-import Faq_Section from '../../components/sections/inner-pages/service/Faq_Section';
-import Service_Section from '../../components/sections/inner-pages/service/service_section/Service_Section';
-import Testimonial_Section from '../../components/sections/inner-pages/service/testimonial/Testimonial_Section';
+import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
+import Faq_Section from "../../components/sections/inner-pages/service/Faq_Section";
+import Service_Section from "../../components/sections/inner-pages/service/service_section/Service_Section";
+import Testimonial_Section from "../../components/sections/inner-pages/service/testimonial/Testimonial_Section";
+import { Helmet } from "react-helmet-async";
 
 const Services = () => {
   return (
-    <>
-      <main className='main-wrapper relative overflow-hidden'>
+    <div>
+      <Helmet>
+        <title>Services | Client Trusted</title>
+        <meta
+          name="description"
+          content="Explore our wide range of services designed to help your business succeed."
+        />
+      </Helmet>
+      <main className="main-wrapper relative overflow-hidden">
         {/*...::: Breadcrumb Section Start :::... */}
-        <Breadcrumb title='Our Services' link='Services' />
+        <Breadcrumb title="Our Services" link="Services" />
         {/*...::: Breadcrumb Section End :::... */}
         {/*...::: Service Section Start :::... */}
         <Service_Section />
@@ -20,7 +28,7 @@ const Services = () => {
         <Testimonial_Section />
         {/*...::: Testimonial Section Start :::... */}
       </main>
-    </>
+    </div>
   );
 };
 

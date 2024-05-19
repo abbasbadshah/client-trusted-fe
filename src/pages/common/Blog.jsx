@@ -4,6 +4,10 @@ import Blog_Section from '../../components/sections/inner-pages/blog/Blog_Sectio
 const Blog = () => {
   return (
     <>
+    <Helmet>
+        <title>Blogs | Client Trusted</title>
+        <meta name="description" content="Read the latest updates, tips, and insights from Client Trusted's blog. " />
+      </Helmet>
       <main className='main-wrapper relative overflow-hidden'>
         {/*...::: Breadcrumb Section Start :::... */}
         <Breadcrumb title='Our Blog' />

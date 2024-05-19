@@ -2,12 +2,20 @@ import useAccordion from '../../../../hooks/useAccordion';
 import Breadcrumb from '../../../../components/breadcrumb/Breadcrumb';
 import Contact from '../../../../components/contact/Contact';
 import data from './data.json';
+import { Helmet } from 'react-helmet-async';
 
 const Faq_01 = () => {
   const [activeIndex, handleAccordion] = useAccordion(0);
 
   return (
-    <>
+    <div>
+    <Helmet>
+        <title>FAQ's | Client Trusted</title>
+        <meta
+          name="description"
+          content="Find answers to commonly asked questions about our products, services, and policies."
+        />
+      </Helmet>
       <main className='main-wrapper relative overflow-hidden'>
         {/*...::: Breadcrumb Section Start :::... */}
         <Breadcrumb title='FAQs' />
@@ -61,7 +69,7 @@ const Faq_01 = () => {
         <Contact />
         {/*...::: About Contact Section End :::... */}
       </main>
-    </>
+    </div>
   );
 };
 

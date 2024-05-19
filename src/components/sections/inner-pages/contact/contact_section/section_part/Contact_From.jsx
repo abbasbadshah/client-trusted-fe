@@ -7,7 +7,7 @@ const Contact_From = () => {
     name: "",
     email: "",
     phone: "",
-    company: "",
+    companyName: "",
     message: "",
     serviceCategory: "",
     service: "",
@@ -37,8 +37,8 @@ const Contact_From = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "myemailjs-service-1214as",
-        "template_lhbxe8l",
+        "serviceID_122114&&1214",
+        "template_h5ojyej",
         e.target,
         "WZVDf5Ns83ubY5mrx"
       )
@@ -54,7 +54,7 @@ const Contact_From = () => {
             name: "",
             email: "",
             phone: "",
-            company: "",
+            companyName: "",
             message: "",
             serviceCategory: "",
             service: "",
@@ -69,7 +69,8 @@ const Contact_From = () => {
   };
 
   const handleInput = (e) => {
-    setInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+    const { name, value } = e.target;
+    setInput((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = (e) => {
@@ -91,7 +92,6 @@ const Contact_From = () => {
     if (input.serviceCategory === "") {
       missingFields.push("Service category");
     }
-
     if (input.service === "") {
       missingFields.push("Service");
     }
@@ -183,8 +183,8 @@ const Contact_From = () => {
             </label>
             <input
               type="text"
-              name="company"
-              value={input.company}
+              name="companyName"
+              value={input.companyName}
               onChange={handleInput}
               id="contact-company"
               placeholder="EX Facebook"

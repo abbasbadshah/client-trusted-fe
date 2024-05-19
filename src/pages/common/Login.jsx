@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import swal from 'sweetalert';
+import { Helmet } from 'react-helmet-async';
 
 const Login = () => {
   const [input, setInput] = useState({
@@ -21,7 +22,10 @@ const Login = () => {
     }
   };
   return (
-    <>
+    <div>
+    <Helmet>
+    <title> Login | Client Trusted </title>
+    </Helmet>
       <main className='main-wrapper relative overflow-hidden'>
         {/*...::: Login Section Start :::... */}
         <section id='login-section'>
@@ -165,7 +169,7 @@ const Login = () => {
         </section>
         {/*...::: Login Section End :::... */}
       </main>
-    </>
+    </div>
   );
 };
 

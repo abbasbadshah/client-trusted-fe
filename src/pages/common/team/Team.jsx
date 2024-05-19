@@ -6,6 +6,13 @@ import Member from '../../../components/widget/team/Member';
 const Team = () => {
   return (
     <>
+    <Helmet>
+        <title>Team | Client Trusted</title>
+        <meta
+          name="description"
+          content="Meet our dedicated team of professionals who are committed to helping your business succeed."
+        />
+      </Helmet>
       <main className='main-wrapper relative overflow-hidden'>
         {/*...::: Breadcrumb Section Start :::... */}
         <Breadcrumb title='Our Team' />

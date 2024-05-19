@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import swal from 'sweetalert';
+import { Helmet } from 'react-helmet-async';
 
 const Signup = () => {
   const [input, setInput] = useState({
@@ -34,7 +35,8 @@ const Signup = () => {
   };
 
   return (
-    <>
+    <div>
+    <Helmet><title>Sign Up | Client Trusted</title></Helmet>
       <main className='main-wrapper relative overflow-hidden'>
         {/*...::: Signup Section Start :::... */}
         <section id='signup-section'>
@@ -205,7 +207,7 @@ const Signup = () => {
         </section>
         {/*...::: Signup Section End :::... */}
       </main>
-    </>
+    </div>
   );
 };
 

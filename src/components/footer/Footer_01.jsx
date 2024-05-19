@@ -21,7 +21,7 @@ const Footer_01 = () => {
               className='h-10 w-10 lg:h-[60px] lg:w-[60px]'
             />
             <div className='block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
-              Start building software
+              Software Development
             </div>
             {/* Footer Slide Item  */}
             {/* Footer Slide Item  */}
@@ -33,7 +33,7 @@ const Footer_01 = () => {
               className='h-10 w-10 lg:h-[60px] lg:w-[60px]'
             />
             <div className='block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
-              Start building software
+              WebApp Development
             </div>
             {/* Footer Slide Item  */}
             {/* Footer Slide Item  */}
@@ -45,7 +45,67 @@ const Footer_01 = () => {
               className='h-10 w-10 lg:h-[60px] lg:w-[60px]'
             />
             <div className='block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
-              Start building software
+              Website Development
+            </div>
+            {/* Footer Slide Item  */}
+            {/* Footer Slide Item  */}
+            <img
+              src='assets/img/th-1/footer-text-slider-icon.svg'
+              alt='footer-text-slider-icon'
+              width={60}
+              height={60}
+              className='h-10 w-10 lg:h-[60px] lg:w-[60px]'
+            />
+            <div className='block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
+              E-commerce Site Development
+            </div>
+            {/* Footer Slide Item  */}
+            {/* Footer Slide Item  */}
+            <img
+              src='assets/img/th-1/footer-text-slider-icon.svg'
+              alt='footer-text-slider-icon'
+              width={60}
+              height={60}
+              className='h-10 w-10 lg:h-[60px] lg:w-[60px]'
+            />
+            <div className='block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
+              Digital Marketing
+            </div>
+            {/* Footer Slide Item  */}
+            {/* Footer Slide Item  */}
+            <img
+              src='assets/img/th-1/footer-text-slider-icon.svg'
+              alt='footer-text-slider-icon'
+              width={60}
+              height={60}
+              className='h-10 w-10 lg:h-[60px] lg:w-[60px]'
+            />
+            <div className='block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
+              Graphic Desiging
+            </div>
+            {/* Footer Slide Item  */}
+            {/* Footer Slide Item  */}
+            <img
+              src='assets/img/th-1/footer-text-slider-icon.svg'
+              alt='footer-text-slider-icon'
+              width={60}
+              height={60}
+              className='h-10 w-10 lg:h-[60px] lg:w-[60px]'
+            />
+            <div className='block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
+              SEO Optimization
+            </div>
+            {/* Footer Slide Item  */}
+            {/* Footer Slide Item  */}
+            <img
+              src='assets/img/th-1/footer-text-slider-icon.svg'
+              alt='footer-text-slider-icon'
+              width={60}
+              height={60}
+              className='h-10 w-10 lg:h-[60px] lg:w-[60px]'
+            />
+            <div className='block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
+              Social Media Management
             </div>
             {/* Footer Slide Item  */}
           </div>
@@ -71,9 +131,6 @@ const Footer_01 = () => {
               Our mission is to harness the power of AI to solve complex
               business challenges &amp; decision-makers with data-driven
               insights, and enhance user experiences across digital platforms.
-            </p>
-            <p>
-              Website: <Link to='/'>www.example.com</Link>
             </p>
           </div>
           {/* Footer Widget */}

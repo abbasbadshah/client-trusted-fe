@@ -42,14 +42,12 @@ const FunFact = () => {
             <div className='self-center px-6 py-16 sm:py-20 md:px-16 xl:px-10 xl:py-24 xxl:py-32 xxl:pl-16 xxl:pr-28'>
               {/* Section Content Block */}
               <div className='mb-8 lg:mb-16 xl:mb-6'>
-                <h2 className='text-white'>AI-powered that streamline tasks</h2>
+                <h2 className='text-white'>Realizing Visions</h2>
               </div>
               {/* Section Content Block */}
               <div className='text-left text-lg leading-[1.4] text-white lg:text-[21px]'>
                 <p className='mb-7 last:mb-0'>
-                  As your business grows or your AI SaaS needs change, you can
-                  easily adjust your subscription level to match those needs.
-                  This flexibility ensures that AI remains an asset.
+                Join hands with Client Trusted and unlock the potential of digital innovation. With a team of seasoned experts and a track record of success, we deliver results that speak volumes.
                 </p>
               </div>
               {/* Horizontal Separator */}

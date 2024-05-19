@@ -5,10 +5,15 @@ import Content_02 from '../../components/sections/inner-pages/about/Content_02';
 import CoreValue from '../../components/sections/inner-pages/about/CoreValue';
 import Team from '../../components/sections/inner-pages/about/team/Team';
 import Contact from '../../components/contact/Contact';
+import { Helmet } from 'react-helmet-async';
 
 const About = () => {
   return (
     <>
+    <Helmet>
+        <title>About | Client Trusted</title>
+        <meta name="description" content="Learn more about Client Trusted, our mission, and our team." />
+      </Helmet>
       <main className='main-wrapper relative overflow-hidden'>
         {/*...::: Breadcrumb Section Start :::... */}
         <Breadcrumb title='About Us' link='About' />
