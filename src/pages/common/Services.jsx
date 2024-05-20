@@ -3,12 +3,13 @@ import Faq_Section from "../../components/sections/inner-pages/service/Faq_Secti
 import Service_Section from "../../components/sections/inner-pages/service/service_section/Service_Section";
 import Testimonial_Section from "../../components/sections/inner-pages/service/testimonial/Testimonial_Section";
 import { Helmet } from "react-helmet-async";
+import usePageTitleAnimation from "../../hooks/usePageTitleAnimation";
 
 const Services = () => {
+  usePageTitleAnimation('Services | Client Trusted', `Don't miss our top-notch services! 💼`)
   return (
     <div>
       <Helmet>
-        <title>Services | Client Trusted</title>
         <meta
           name="description"
           content="Explore our wide range of services designed to help your business succeed."

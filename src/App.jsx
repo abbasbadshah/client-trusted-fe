@@ -23,12 +23,12 @@ import useJOSAnimation from './hooks/useJOSAnimation';
 import Layout from './components/layout/Layout';
 import Faq_01 from './pages/common/faq/faq_01/Faq_01';
 
-function App() {
+const App = () => {
   // Init JOS Animation
   useJOSAnimation();
 
   return (
-    <>
+    <div>
       <Routes>
         <Route element={<Layout />}>
           <Route path='/' element={<Home_01 />} />
@@ -55,7 +55,7 @@ function App() {
         <Route path='home-3' element={<Home_03 />} />
         <Route path='home-4' element={<Home_04 />} />
       </Routes>
-    </>
+    </div>
   );
 }
 

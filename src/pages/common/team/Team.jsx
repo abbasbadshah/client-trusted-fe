@@ -2,12 +2,13 @@ import { Link } from 'react-router-dom';
 import Breadcrumb from '../../../components/breadcrumb/Breadcrumb';
 import data from './data.json';
 import Member from '../../../components/widget/team/Member';
+import usePageTitleAnimation from '../../../hooks/usePageTitleAnimation';
 
 const Team = () => {
+  usePageTitleAnimation('Team | Client Trusted', `Meet our amazing team! 👥"`)
   return (
     <>
     <Helmet>
-        <title>Team | Client Trusted</title>
         <meta
           name="description"
           content="Meet our dedicated team of professionals who are committed to helping your business succeed."

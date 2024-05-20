@@ -1,11 +1,13 @@
 import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
 import Blog_Section from '../../components/sections/inner-pages/blog/Blog_Section';
+import usePageTitleAnimation from '../../hooks/usePageTitleAnimation';
+import { Helmet } from 'react-helmet-async';
 
 const Blog = () => {
+  usePageTitleAnimation(`Blogs | Client Trusted`, `Don't miss out on our latest posts! 📝`)
   return (
-    <>
+    <div>
     <Helmet>
-        <title>Blogs | Client Trusted</title>
         <meta name="description" content="Read the latest updates, tips, and insights from Client Trusted's blog. " />
       </Helmet>
       <main className='main-wrapper relative overflow-hidden'>
@@ -16,7 +18,7 @@ const Blog = () => {
         <Blog_Section />
         {/*...::: Blog Section End :::... */}
       </main>
-    </>
+    </div>
   );
 };
 

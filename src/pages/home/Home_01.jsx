@@ -6,12 +6,13 @@ import FunFact from "../../components/sections/home_01/FunFact";
 import Pricing from "../../components/sections/home_01/Pricing";
 import Testimonial_Section from "../../components/sections/home_01/Testimonial_Section";
 import { Helmet } from "react-helmet-async";
+import usePageTitleAnimation from "../../hooks/usePageTitleAnimation";
 
 const Home_01 = () => {
+  usePageTitleAnimation('Client Trusted | Best for the business', `Wait, where are you going? 🚶‍♂️`)
   return (
     <main className="main-wrapper relative overflow-hidden">
       <Helmet>
-        <title>Client Trusted | Best for the business</title>
         <meta name="description" content="Best for the business" />
       </Helmet>
       <Hero />
