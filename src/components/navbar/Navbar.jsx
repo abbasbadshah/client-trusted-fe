@@ -49,6 +49,10 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
     }
   };
 
+  const handleLinkClick = () => {
+    handleMenu(); // Close the menu when a link is clicked
+  };
+
   return (
     <div className='menu-block-wrapper'>
       <div
@@ -75,13 +79,17 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
           </div>
         </div>
         <ul className={`site-menu-main ${color}`}>
-          {/* Global navbar */}
-          {/*<li
-            onClick={(e) => handleSubMenu(e, 1)}
+          <li className='nav-item'>
+            <Link to='/' className='nav-link-item' onClick={handleLinkClick}>
+              Home
+            </Link>
+          </li>
+          <li
+            onClick={(e) => handleSubMenu(e, 2)}
             className='nav-item nav-item-has-children'
           >
             <Link to='#' className='nav-link-item drop-trigger'>
-              Demo
+              About
               <img
                 className='dropdown-icon'
                 src='assets/img/icon-black-cheveron-right.svg'
@@ -91,69 +99,32 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
               />
             </Link>
             <ul
-              className={`sub-menu ${mobileSubMenu === 1 && 'active'}`}
-              id='submenu-1'
+              className={`sub-menu ${mobileSubMenu === 2 && 'active'}`}
+              id='submenu-2'
             >
               <li className='sub-menu--item'>
-                <Link to='/'>home 01</Link>
+                <Link to='/about' onClick={handleLinkClick}>About Us</Link>
               </li>
               <li className='sub-menu--item'>
-                <Link to='/home-2'>home 02</Link>
+                <Link to='/pricing' onClick={handleLinkClick}>Pricing</Link>
               </li>
               <li className='sub-menu--item'>
-                <Link to='/home-3'>home 03</Link>
-              </li>
-              <li className='sub-menu--item'>
-                <Link to='/home-4'> home 04</Link>
+                <Link to='/faq' onClick={handleLinkClick}>FAQ</Link>
               </li>
             </ul>
-  </li>*/}
+          </li>
           <li className='nav-item'>
-          <Link to='/' className='nav-link-item'>
-            Home
-          </Link>
-        </li>
-        <li
-        onClick={(e) => handleSubMenu(e, 2)}
-        className='nav-item nav-item-has-children'
-      >
-        <Link to='#' className='nav-link-item drop-trigger'>
-          About
-          <img
-            className='dropdown-icon'
-            src='assets/img/icon-black-cheveron-right.svg'
-            alt='cheveron-right'
-            width={16}
-            height={16}
-          />
-        </Link>
-        <ul
-          className={`sub-menu ${mobileSubMenu === 2 && 'active'}`}
-          id='submenu-2'
-        >
-          <li className='sub-menu--item'>
-            <Link to='/about'>About Us</Link>
-          </li>
-          <li className='sub-menu--item'>
-            <Link to='/pricing'>Pricing</Link>
-          </li>
-          <li className='sub-menu--item'>
-            <Link to='/faq'>FAQ</Link>
-          </li>
-        </ul>
-      </li>
-          <li className='nav-item'>
-            <Link to='/services' className='nav-link-item'>
+            <Link to='/services' className='nav-link-item' onClick={handleLinkClick}>
               Services
             </Link>
           </li>
           <li className='nav-item'>
-          <Link to='/portfolio' className='nav-link-item'>
-            Portfolios
-          </Link>
-        </li>
+            <Link to='/portfolio' className='nav-link-item' onClick={handleLinkClick}>
+              Portfolios
+            </Link>
+          </li>
           <li className='nav-item'>
-            <Link to='/contact' className='nav-link-item'>
+            <Link to='/contact' className='nav-link-item' onClick={handleLinkClick}>
               Contact
             </Link>
           </li>

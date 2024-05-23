@@ -131,7 +131,7 @@ const Contact_From = () => {
               value={input.name}
               onChange={handleInput}
               id="contact-name"
-              placeholder="Adam Smith"
+              placeholder="John Doe"
               className="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
               required
             />
@@ -149,7 +149,7 @@ const Contact_From = () => {
               value={input.email}
               onChange={handleInput}
               id="contact-email"
-              placeholder="example@gmail.com"
+              placeholder="johndoe@gmail.com"
               className="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
               required
             />
@@ -169,7 +169,7 @@ const Contact_From = () => {
               value={input.phone}
               onChange={handleInput}
               id="contact-phone"
-              placeholder="+880-1345-922210"
+              placeholder="+91-99999-22222"
               className="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
               required
             />
@@ -187,7 +187,7 @@ const Contact_From = () => {
               value={input.companyName}
               onChange={handleInput}
               id="contact-company"
-              placeholder="EX Facebook"
+              placeholder="Ex Facebook"
               className="rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed"
             />
           </div>
